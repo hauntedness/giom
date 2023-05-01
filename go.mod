@@ -14,6 +14,7 @@ require (
 	golang.org/x/exp v0.0.0-20230425010034-47ecfdc1ba53
 	golang.org/x/exp/shiny v0.0.0-20230420155640-133eef4313cb
 	golang.org/x/net v0.9.0
+	gonum.org/v1/gonum v0.12.0
 	gorm.io/driver/sqlite v1.5.0
 )
 
@@ -23,11 +24,9 @@ require (
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/mattn/go-sqlite3 v1.14.16 // indirect
-	github.com/yuin/goldmark v1.4.13 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.9.0 // indirect
 	golang.org/x/crypto v0.8.0 // indirect
-	gonum.org/v1/gonum v0.12.0 // indirect
 )
 
 require (
