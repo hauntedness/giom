@@ -1,4 +1,4 @@
-package custom
+package main
 
 import (
 	"image"
@@ -9,6 +9,7 @@ import (
 	"gioui.org/op"
 	"gioui.org/op/clip"
 	"gioui.org/op/paint"
+	"github.com/hauntedness/giom/internal/log"
 )
 
 type ButtonVisual struct {
@@ -25,6 +26,13 @@ func (b *ButtonVisual) Layout(gtx layout.Context) layout.Dimensions {
 		if e, ok := e.(pointer.Event); ok {
 			switch e.Type {
 			case pointer.Press:
+				if e.Buttons.Contain(pointer.ButtonPrimary) {
+					log.Info("primary")
+				} else if e.Buttons.Contain(pointer.ButtonSecondary) {
+					log.Info("secondary")
+				} else if e.Buttons.Contain(pointer.ButtonTertiary) {
+					log.Info("tertiary")
+				}
 				b.pressed = true
 			case pointer.Release:
 				b.pressed = false

@@ -118,3 +118,7 @@ func Loop(w *app.Window, app *App) error {
 	}
 	return nil
 }
+
+func Add(a int, b int) int {
+	return a + b
+}

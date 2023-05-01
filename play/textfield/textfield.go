@@ -79,7 +79,6 @@ func draw(gtx layout.Context, app *App) {
 			layout.Rigid(func(gtx layout.Context) layout.Dimensions {
 				textField := component.TextField{
 					Editor:    widget.Editor{},
-					Alignment: 0,
 					Helper:    "Helper",
 					CharLimit: 0,
 					Prefix:    nil,

@@ -1,0 +1,847 @@
+{
+    "hash": "0x07b67b705fe110870fd584324ec9923718091777a4d47bddfa7e4f1cf758157c",
+    "extra": {
+        "type": "invoke",
+        "callerAddress": null,
+        "contractAddress": "0x0075bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+        "selector": null,
+        "calldata": [
+            "0x2",
+            "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+            "0x219209e083275171774dab1df80982e9df2096516f06319c5c6d71ae0a8480c",
+            "0x0",
+            "0x3",
+            "0x41fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023",
+            "0x3276861cf5e05d6daf8f352cabb47df623eb10c383ab742fcc7abea94d5c5cc",
+            "0x3",
+            "0x9",
+            "0xc",
+            "0x41fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023",
+            "0x1294a70d",
+            "0x0",
+            "0x1294a70d",
+            "0x0",
+            "0x2512e73bd47e825",
+            "0x0",
+            "0x2",
+            "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+            "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+            "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+            "0x644672fb"
+        ],
+        "signature": [
+            "0x73634b4e302e175573a2d4da51e973d965784de9d38977f37fafc488184b9d7",
+            "0x5970653921a7609655dd02421de6cd1b6734130b5329e0465789686ae877387"
+        ],
+        "nonce": "13",
+        "version": "1",
+        "maxFee": "1394728546998600",
+        "internals": [
+            {
+                "address": "0x0075bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                "result": [
+                    "0x1",
+                    "0x2",
+                    "0x1294a70d",
+                    "0x0",
+                    "0x256ff2933310ada",
+                    "0x0"
+                ],
+                "internals": [
+                    {
+                        "address": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                        "result": [
+                            "0x1"
+                        ],
+                        "internals": [
+                            {
+                                "address": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                "result": [
+                                    "0x1"
+                                ],
+                                "name": "approve",
+                                "decoded": {
+                                    "spender": {
+                                        "__value": "0x41fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023",
+                                        "__type": "felt"
+                                    },
+                                    "amount": {
+                                        "__value": "0x1294a70d",
+                                        "__type": "Uint256"
+                                    }
+                                }
+                            }
+                        ],
+                        "name": "approve",
+                        "decoded": {
+                            "spender": {
+                                "__value": "0x41fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023",
+                                "__type": "felt"
+                            },
+                            "amount": {
+                                "__value": "0x1294a70d",
+                                "__type": "Uint256"
+                            }
+                        }
+                    },
+                    {
+                        "address": "0x041fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023",
+                        "result": [
+                            "0x2",
+                            "0x1294a70d",
+                            "0x0",
+                            "0x256ff2933310ada",
+                            "0x0"
+                        ],
+                        "internals": [
+                            {
+                                "address": "0x041fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023",
+                                "result": [
+                                    "0x2",
+                                    "0x1294a70d",
+                                    "0x0",
+                                    "0x256ff2933310ada",
+                                    "0x0"
+                                ],
+                                "internals": [
+                                    {
+                                        "address": "0x00dad44c139a476c7a17fc8141e6db680e9abc9f56fe249a105094c44382c2fd",
+                                        "result": [
+                                            "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a"
+                                        ],
+                                        "internals": [
+                                            {
+                                                "address": "0x00dad44c139a476c7a17fc8141e6db680e9abc9f56fe249a105094c44382c2fd",
+                                                "result": [
+                                                    "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a"
+                                                ],
+                                                "name": "get_pair",
+                                                "decoded": {
+                                                    "token0": {
+                                                        "__value": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                                        "__type": "felt"
+                                                    },
+                                                    "token1": {
+                                                        "__value": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                                        "__type": "felt"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "name": "get_pair",
+                                        "decoded": {
+                                            "token0": {
+                                                "__value": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                                "__type": "felt"
+                                            },
+                                            "token1": {
+                                                "__value": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                                "__type": "felt"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "address": "0x04d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+                                        "result": [
+                                            "0x20f8679200db2ca0e1",
+                                            "0x0",
+                                            "0x104f5ed4bba",
+                                            "0x0",
+                                            "0x6446693c"
+                                        ],
+                                        "internals": [
+                                            {
+                                                "address": "0x04d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+                                                "result": [
+                                                    "0x20f8679200db2ca0e1",
+                                                    "0x0",
+                                                    "0x104f5ed4bba",
+                                                    "0x0",
+                                                    "0x6446693c"
+                                                ],
+                                                "name": "get_reserves",
+                                                "decoded": {}
+                                            }
+                                        ],
+                                        "name": "get_reserves",
+                                        "decoded": {}
+                                    },
+                                    {
+                                        "address": "0x00dad44c139a476c7a17fc8141e6db680e9abc9f56fe249a105094c44382c2fd",
+                                        "result": [
+                                            "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a"
+                                        ],
+                                        "internals": [
+                                            {
+                                                "address": "0x00dad44c139a476c7a17fc8141e6db680e9abc9f56fe249a105094c44382c2fd",
+                                                "result": [
+                                                    "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a"
+                                                ],
+                                                "name": "get_pair",
+                                                "decoded": {
+                                                    "token0": {
+                                                        "__value": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                                        "__type": "felt"
+                                                    },
+                                                    "token1": {
+                                                        "__value": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                                        "__type": "felt"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "name": "get_pair",
+                                        "decoded": {
+                                            "token0": {
+                                                "__value": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                                "__type": "felt"
+                                            },
+                                            "token1": {
+                                                "__value": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                                "__type": "felt"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "address": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                        "result": [
+                                            "0x1"
+                                        ],
+                                        "internals": [
+                                            {
+                                                "address": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                                "result": [
+                                                    "0x1"
+                                                ],
+                                                "name": "transferFrom",
+                                                "decoded": {
+                                                    "sender": {
+                                                        "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                                                        "__type": "felt"
+                                                    },
+                                                    "recipient": {
+                                                        "__value": "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+                                                        "__type": "felt"
+                                                    },
+                                                    "amount": {
+                                                        "__value": "0x1294a70d",
+                                                        "__type": "Uint256"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "name": "transferFrom",
+                                        "decoded": {
+                                            "sender": {
+                                                "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                                                "__type": "felt"
+                                            },
+                                            "recipient": {
+                                                "__value": "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+                                                "__type": "felt"
+                                            },
+                                            "amount": {
+                                                "__value": "0x1294a70d",
+                                                "__type": "Uint256"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "address": "0x00dad44c139a476c7a17fc8141e6db680e9abc9f56fe249a105094c44382c2fd",
+                                        "result": [
+                                            "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a"
+                                        ],
+                                        "internals": [
+                                            {
+                                                "address": "0x00dad44c139a476c7a17fc8141e6db680e9abc9f56fe249a105094c44382c2fd",
+                                                "result": [
+                                                    "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a"
+                                                ],
+                                                "name": "get_pair",
+                                                "decoded": {
+                                                    "token0": {
+                                                        "__value": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                                        "__type": "felt"
+                                                    },
+                                                    "token1": {
+                                                        "__value": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                                        "__type": "felt"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "name": "get_pair",
+                                        "decoded": {
+                                            "token0": {
+                                                "__value": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                                "__type": "felt"
+                                            },
+                                            "token1": {
+                                                "__value": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                                "__type": "felt"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "address": "0x04d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+                                        "result": [],
+                                        "internals": [
+                                            {
+                                                "address": "0x04d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+                                                "result": [],
+                                                "internals": [
+                                                    {
+                                                        "address": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                                        "result": [
+                                                            "0x1"
+                                                        ],
+                                                        "internals": [
+                                                            {
+                                                                "address": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                                                "result": [
+                                                                    "0x1"
+                                                                ],
+                                                                "name": "transfer",
+                                                                "decoded": {
+                                                                    "recipient": {
+                                                                        "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                                                                        "__type": "felt"
+                                                                    },
+                                                                    "amount": {
+                                                                        "__value": "0x256ff2933310ada",
+                                                                        "__type": "Uint256"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "name": "transfer",
+                                                        "decoded": {
+                                                            "recipient": {
+                                                                "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                                                                "__type": "felt"
+                                                            },
+                                                            "amount": {
+                                                                "__value": "0x256ff2933310ada",
+                                                                "__type": "Uint256"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "address": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                                        "result": [
+                                                            "0x20f61092d7a7fb9607",
+                                                            "0x0"
+                                                        ],
+                                                        "internals": [
+                                                            {
+                                                                "address": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                                                "result": [
+                                                                    "0x20f61092d7a7fb9607",
+                                                                    "0x0"
+                                                                ],
+                                                                "name": "balanceOf",
+                                                                "decoded": {
+                                                                    "account": {
+                                                                        "__value": "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+                                                                        "__type": "felt"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "name": "balanceOf",
+                                                        "decoded": {
+                                                            "account": {
+                                                                "__value": "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+                                                                "__type": "felt"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "address": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                                        "result": [
+                                                            "0x1050881f2c7",
+                                                            "0x0"
+                                                        ],
+                                                        "internals": [
+                                                            {
+                                                                "address": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                                                "result": [
+                                                                    "0x1050881f2c7",
+                                                                    "0x0"
+                                                                ],
+                                                                "name": "balanceOf",
+                                                                "decoded": {
+                                                                    "account": {
+                                                                        "__value": "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+                                                                        "__type": "felt"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "name": "balanceOf",
+                                                        "decoded": {
+                                                            "account": {
+                                                                "__value": "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+                                                                "__type": "felt"
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "name": "swap",
+                                                "decoded": {
+                                                    "amount0Out": {
+                                                        "__value": "0x256ff2933310ada",
+                                                        "__type": "Uint256"
+                                                    },
+                                                    "amount1Out": {
+                                                        "__value": "0x0",
+                                                        "__type": "Uint256"
+                                                    },
+                                                    "to": {
+                                                        "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                                                        "__type": "felt"
+                                                    },
+                                                    "data_len": {
+                                                        "__value": "0x0",
+                                                        "__type": "felt"
+                                                    },
+                                                    "data": {
+                                                        "__value": [],
+                                                        "__type": "felt*"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "name": "swap",
+                                        "decoded": {
+                                            "amount0Out": {
+                                                "__value": "0x256ff2933310ada",
+                                                "__type": "Uint256"
+                                            },
+                                            "amount1Out": {
+                                                "__value": "0x0",
+                                                "__type": "Uint256"
+                                            },
+                                            "to": {
+                                                "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                                                "__type": "felt"
+                                            },
+                                            "data_len": {
+                                                "__value": "0x0",
+                                                "__type": "felt"
+                                            },
+                                            "data": {
+                                                "__value": [],
+                                                "__type": "felt*"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "name": "swap_exact_tokens_for_tokens",
+                                "decoded": {
+                                    "amountIn": {
+                                        "__value": "0x1294a70d",
+                                        "__type": "Uint256"
+                                    },
+                                    "amountOutMin": {
+                                        "__value": "0x2512e73bd47e825",
+                                        "__type": "Uint256"
+                                    },
+                                    "path_len": {
+                                        "__value": "0x2",
+                                        "__type": "felt"
+                                    },
+                                    "path": {
+                                        "__value": [
+                                            {
+                                                "__value": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                                "__type": "felt"
+                                            },
+                                            {
+                                                "__value": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                                "__type": "felt"
+                                            }
+                                        ],
+                                        "__type": "felt*"
+                                    },
+                                    "to": {
+                                        "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                                        "__type": "felt"
+                                    },
+                                    "deadline": {
+                                        "__value": "0x644672fb",
+                                        "__type": "felt"
+                                    }
+                                }
+                            }
+                        ],
+                        "name": "swap_exact_tokens_for_tokens",
+                        "decoded": {
+                            "amountIn": {
+                                "__value": "0x1294a70d",
+                                "__type": "Uint256"
+                            },
+                            "amountOutMin": {
+                                "__value": "0x2512e73bd47e825",
+                                "__type": "Uint256"
+                            },
+                            "path_len": {
+                                "__value": "0x2",
+                                "__type": "felt"
+                            },
+                            "path": {
+                                "__value": [
+                                    {
+                                        "__value": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                        "__type": "felt"
+                                    },
+                                    {
+                                        "__value": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                        "__type": "felt"
+                                    }
+                                ],
+                                "__type": "felt*"
+                            },
+                            "to": {
+                                "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                                "__type": "felt"
+                            },
+                            "deadline": {
+                                "__value": "0x644672fb",
+                                "__type": "felt"
+                            }
+                        }
+                    }
+                ],
+                "name": "__execute__",
+                "decoded": {
+                    "calls": [
+                        {
+                            "to": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                            "selector": "0x219209e083275171774dab1df80982e9df2096516f06319c5c6d71ae0a8480c",
+                            "data": {
+                                "spender": {
+                                    "__value": "0x41fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023",
+                                    "__type": "felt"
+                                },
+                                "amount": {
+                                    "__value": "0x1294a70d",
+                                    "__type": "Uint256"
+                                }
+                            },
+                            "name": "approve"
+                        },
+                        {
+                            "to": "0x041fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023",
+                            "selector": "0x3276861cf5e05d6daf8f352cabb47df623eb10c383ab742fcc7abea94d5c5cc",
+                            "data": {
+                                "amountIn": {
+                                    "__value": "0x1294a70d",
+                                    "__type": "Uint256"
+                                },
+                                "amountOutMin": {
+                                    "__value": "0x2512e73bd47e825",
+                                    "__type": "Uint256"
+                                },
+                                "path_len": {
+                                    "__value": "0x2",
+                                    "__type": "felt"
+                                },
+                                "path": {
+                                    "__value": [
+                                        {
+                                            "__value": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                            "__type": "felt"
+                                        },
+                                        {
+                                            "__value": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                            "__type": "felt"
+                                        }
+                                    ],
+                                    "__type": "felt*"
+                                },
+                                "to": {
+                                    "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                                    "__type": "felt"
+                                },
+                                "deadline": {
+                                    "__value": "0x644672fb",
+                                    "__type": "felt"
+                                }
+                            },
+                            "name": "swap_exact_tokens_for_tokens"
+                        }
+                    ],
+                    "nonce": "1682338555"
+                }
+            }
+        ],
+        "invokeName": "__execute__",
+        "decoded": {
+            "calls": [
+                {
+                    "to": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                    "selector": "0x219209e083275171774dab1df80982e9df2096516f06319c5c6d71ae0a8480c",
+                    "data": {
+                        "spender": {
+                            "__value": "0x41fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023",
+                            "__type": "felt"
+                        },
+                        "amount": {
+                            "__value": "0x1294a70d",
+                            "__type": "Uint256"
+                        }
+                    },
+                    "name": "approve"
+                },
+                {
+                    "to": "0x041fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023",
+                    "selector": "0x3276861cf5e05d6daf8f352cabb47df623eb10c383ab742fcc7abea94d5c5cc",
+                    "data": {
+                        "amountIn": {
+                            "__value": "0x1294a70d",
+                            "__type": "Uint256"
+                        },
+                        "amountOutMin": {
+                            "__value": "0x2512e73bd47e825",
+                            "__type": "Uint256"
+                        },
+                        "path_len": {
+                            "__value": "0x2",
+                            "__type": "felt"
+                        },
+                        "path": {
+                            "__value": [
+                                {
+                                    "__value": "0x53c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+                                    "__type": "felt"
+                                },
+                                {
+                                    "__value": "0x49d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+                                    "__type": "felt"
+                                }
+                            ],
+                            "__type": "felt*"
+                        },
+                        "to": {
+                            "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                            "__type": "felt"
+                        },
+                        "deadline": {
+                            "__value": "0x644672fb",
+                            "__type": "felt"
+                        }
+                    },
+                    "name": "swap_exact_tokens_for_tokens"
+                }
+            ],
+            "nonce": "1682338555"
+        }
+    },
+    "fee": "505570060164090",
+    "height": 44247,
+    "status": "ACCEPTED_ON_L2",
+    "timestamp": 1682336060000,
+    "transfers": [
+        {
+            "contract": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+            "from": "0x0075bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+            "to": "0x04d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+            "value": "311731981"
+        },
+        {
+            "contract": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+            "from": "0x04d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+            "to": "0x0075bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+            "value": "168602588490566362"
+        },
+        {
+            "contract": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+            "from": "0x0075bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+            "to": "0x01176a1bd84444c89232ec27754698e5d2e7e1a7f1539f12027f28b23ec9f3d8",
+            "value": "505570060164090"
+        }
+    ],
+    "txIndex": 193,
+    "events": [
+        {
+            "hash": "0x07b67b705fe110870fd584324ec9923718091777a4d47bddfa7e4f1cf758157c_0",
+            "decoded": {
+                "owner": {
+                    "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                    "__type": "felt"
+                },
+                "spender": {
+                    "__value": "0x41fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023",
+                    "__type": "felt"
+                },
+                "value": {
+                    "__value": "0x1294a70d",
+                    "__type": "Uint256"
+                }
+            },
+            "from": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+            "name": "Approval"
+        },
+        {
+            "hash": "0x07b67b705fe110870fd584324ec9923718091777a4d47bddfa7e4f1cf758157c_1",
+            "decoded": {
+                "from_": {
+                    "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                    "__type": "felt"
+                },
+                "to": {
+                    "__value": "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+                    "__type": "felt"
+                },
+                "value": {
+                    "__value": "0x1294a70d",
+                    "__type": "Uint256"
+                }
+            },
+            "from": "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8",
+            "name": "Transfer"
+        },
+        {
+            "hash": "0x07b67b705fe110870fd584324ec9923718091777a4d47bddfa7e4f1cf758157c_2",
+            "decoded": {
+                "from_": {
+                    "__value": "0x4d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+                    "__type": "felt"
+                },
+                "to": {
+                    "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                    "__type": "felt"
+                },
+                "value": {
+                    "__value": "0x256ff2933310ada",
+                    "__type": "Uint256"
+                }
+            },
+            "from": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+            "name": "Transfer"
+        },
+        {
+            "hash": "0x07b67b705fe110870fd584324ec9923718091777a4d47bddfa7e4f1cf758157c_3",
+            "decoded": {
+                "reserve0": {
+                    "__value": "0x20f61092d7a7fb9607",
+                    "__type": "Uint256"
+                },
+                "reserve1": {
+                    "__value": "0x1050881f2c7",
+                    "__type": "Uint256"
+                }
+            },
+            "from": "0x04d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+            "name": "Sync"
+        },
+        {
+            "hash": "0x07b67b705fe110870fd584324ec9923718091777a4d47bddfa7e4f1cf758157c_4",
+            "decoded": {
+                "sender": {
+                    "__value": "0x41fd22b238fa21cfcf5dd45a8548974d8263b3a531a60388411c5e230f97023",
+                    "__type": "felt"
+                },
+                "amount0In": {
+                    "__value": "0x0",
+                    "__type": "Uint256"
+                },
+                "amount1In": {
+                    "__value": "0x1294a70d",
+                    "__type": "Uint256"
+                },
+                "amount0Out": {
+                    "__value": "0x256ff2933310ada",
+                    "__type": "Uint256"
+                },
+                "amount1Out": {
+                    "__value": "0x0",
+                    "__type": "Uint256"
+                },
+                "to": {
+                    "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                    "__type": "felt"
+                }
+            },
+            "from": "0x04d0390b777b424e43839cd1e744799f3de6c176c7e32c1812a41dbd9c19db6a",
+            "name": "Swap"
+        },
+        {
+            "hash": "0x07b67b705fe110870fd584324ec9923718091777a4d47bddfa7e4f1cf758157c_5",
+            "decoded": {
+                "hash": {
+                    "__value": "0x7b67b705fe110870fd584324ec9923718091777a4d47bddfa7e4f1cf758157c",
+                    "__type": "felt"
+                },
+                "response_len": {
+                    "__value": "0x6",
+                    "__type": "felt"
+                },
+                "response": {
+                    "__value": [
+                        {
+                            "__value": "0x1",
+                            "__type": "felt"
+                        },
+                        {
+                            "__value": "0x2",
+                            "__type": "felt"
+                        },
+                        {
+                            "__value": "0x1294a70d",
+                            "__type": "felt"
+                        },
+                        {
+                            "__value": "0x0",
+                            "__type": "felt"
+                        },
+                        {
+                            "__value": "0x256ff2933310ada",
+                            "__type": "felt"
+                        },
+                        {
+                            "__value": "0x0",
+                            "__type": "felt"
+                        }
+                    ],
+                    "__type": "felt*"
+                }
+            },
+            "from": "0x0075bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+            "name": "transaction_executed"
+        },
+        {
+            "hash": "0x07b67b705fe110870fd584324ec9923718091777a4d47bddfa7e4f1cf758157c_6",
+            "decoded": {
+                "from_": {
+                    "__value": "0x75bc91c619fbd3968fe0327226f9acf93987880b7fa45edd938e692b68814d",
+                    "__type": "felt"
+                },
+                "to": {
+                    "__value": "0x1176a1bd84444c89232ec27754698e5d2e7e1a7f1539f12027f28b23ec9f3d8",
+                    "__type": "felt"
+                },
+                "value": {
+                    "__value": "0x1cbd033d85bfa",
+                    "__type": "Uint256"
+                }
+            },
+            "from": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
+            "name": "Transfer"
+        }
+    ],
+    "messages": [],
+    "tokens": {
+        "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7": {
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+        },
+        "0x053c91253bc9682c04929ca02ed00b3e423f6710d2ee7e0d5ebb06f3ecf368a8": {
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "decimals": 6
+        }
+    }
+}
